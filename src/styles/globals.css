@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+   
+}
+
+/* ::-webkit-scrollbar {
+  width: 0;
+}   */
+
+.msg {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(164, 164, 164);
+}
+
+.sent {
+  display: flex;
+  background-color: #ff9999;
+  color: black;
+  /* border-radius: 10px; */
+  flex-direction: column;
+  /* padding: 10px; */
+  float: right;
+  /* margin-bottom: 10px; Add this line */
+  clear: both; /* Add this line */
+  font-size:small;
+}
+
+.received {
+  /* border: 1px solid #2C4F17; */
+  /* background-color: #FAFAFA; */
+  /* border-radius: 10px; */
+  float: left;
+  /* padding: 10px; */
+  /* margin-bottom: 10px; Add this line */
+  clear: both; /* Add this line */
+  font-size:small;
+}
